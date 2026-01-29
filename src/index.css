@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Courier New', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-neon-green {
+    color: #00FF00;
+    text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00;
+  }
+
+  .text-neon-red {
+    color: #FF0000;
+    text-shadow: 0 0 10px #FF0000, 0 0 20px #FF0000;
+  }
+
+  .text-neon-cyan {
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+  }
+
+  .border-neon-cyan {
+    border-color: #00FFFF;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+
+  .text-neon-orange {
+    color: #FFA500;
+    text-shadow: 0 0 10px #FFA500, 0 0 20px #FFA500;
+  }
+
+  .text-neon-yellow {
+    color: #FFFF00;
+    text-shadow: 0 0 10px #FFFF00, 0 0 20px #FFFF00;
+  }
+}
