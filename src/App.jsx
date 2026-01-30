@@ -463,7 +463,7 @@ function App() {
     return (
       <div className="min-h-screen bg-gray-900 flex items-center justify-center">
         <div className="text-center">
-          <img src="/logo.png" alt="RunForm AI" className="h-16 mb-4 mx-auto" />
+          <img src="logo.png" alt="RunForm AI" className="h-16 mb-4 mx-auto" />
           <p className="text-2xl text-neon-green animate-pulse">
             Loading AI Model...
           </p>
@@ -478,7 +478,7 @@ function App() {
     <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-6">
       {/* Header */}
       <div className="mb-4">
-        <img src="/logo.png" alt="RunForm AI" className="h-12" />
+        <img src="logo.png" alt="RunForm AI" className="h-12" />
       </div>
 
       {/* Mode Toggle */}
